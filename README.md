@@ -61,19 +61,43 @@ Y= A⊕B
 
 5.	For different input combinations generate the timing diagram.
 
+## Developed by: VINOTH M P
+## Register No: 212224240182
+### PROGRAM
+module logicgates(a, b, c1, c2, c3, c4, c5, c6, c7);
+    input a, b;
+    output c1, c2, c3, c4, c5, c6, c7;
 
-**PROGRAM**
+    assign c1 = ~a;
+    assign c2 = a & b;
+    assign c3 = a | b;
+    assign c4 = ~(a & b);
+    assign c5 = ~(a | b);
+    assign c6 = a ^ b;
+    assign c7 = ~(a ^ b);
+endmodule
+
+
+
+
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
+
  
 **Logic symbol & Truthtable**
+![Screenshot 2024-11-11 093525](https://github.com/user-attachments/assets/44ec8af1-7901-409f-90f7-b08a0bf12135)
+
+
 
 **RTL realization Output:** 
 
-**RTL**
+![Screenshot 2024-11-11 082549](https://github.com/user-attachments/assets/63abb129-10aa-466e-b2f0-c9be70144b81)
 
+
+**RTL**
+![Screenshot (5)](https://github.com/user-attachments/assets/abcc8092-7cf7-4e99-a2da-d93e0e0c07c2)
 **Result:**
+Thus the different digital IC's are studied and truthtable for different logic gates are verified
 
 
